@@ -1,0 +1,47 @@
+@import '../utils/variables';
+
+.client{
+
+    &__tittle{
+       color: $secundary-color;
+        padding-bottom: 5px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    &__card{
+        display: flex;
+        gap: 20px; 
+    }
+
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        width: 170px;
+        height: 80px;
+        /* width: 30px; */
+        border-radius: 1px;
+        border: 1px solid $team-icon;
+
+        &:hover{
+            border: 1px solid $primary-color;
+            cursor: pointer;
+        }
+
+        &:hover .client__icon{
+            fill: $primary-color; 
+        }
+    }
+
+    &__icon{
+        width: 41px;
+        height: 42px;  
+        fill: $team-icon;
+    }
+}

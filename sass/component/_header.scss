@@ -1,0 +1,101 @@
+@import '../utils/variables';
+
+// Barra principal
+.page-header{
+
+    height: 80px;    
+
+    .container{
+        display: flex;    
+        align-items: center;  
+        justify-content: space-between;
+        height: 100%;         
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        gap: 100px;       
+    }
+
+    .logo{
+
+        &__link{        
+    
+            &:hover{
+                color: $secundary-color;
+            }
+
+            &:focus{
+                color: $secundary-color;        }
+        }
+    }
+}
+
+
+
+.navbar{
+
+    &__menu{
+        display: flex;
+        list-style: none;
+        gap: 80px;
+    }
+
+    &__link{
+        font-weight: 500;
+        font-size: 14px;        
+        color: $secundary-color;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+
+        &:hover{
+            color: $primary-color;
+        }
+    }
+}
+
+.contact{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    &__item{
+        display: flex;   
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;  
+    }
+
+    &__link{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: $skills-text;
+
+
+        &:hover .contact__icon{            
+            fill: $primary-color;
+        }
+        &:hover{
+            color: $primary-color;
+        }
+    }
+
+    &__email{
+        fill: $skills-text;
+        width: 16px;
+        height: 12px;
+    }
+
+    &__smarphone{
+        fill: $skills-text;
+        width: 10px;
+        height: 16px;
+    }
+}
+
+

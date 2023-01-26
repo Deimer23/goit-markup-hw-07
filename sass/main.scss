@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+@import 'component/header';
+@import 'component/tittle';
+@import 'component/skills';
+@import 'component/ourwork';
+@import 'component/team';
+@import 'component/client';
+@import 'component/footer';
+@import 'component/modal';
+@import 'component/portafoliomenu';
+@import 'component/portafoliogallery';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+section{
+  padding: 94px 0;
+}
+.container{
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo{
+
+  &__link{
+      font-family: "raleway", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      letter-spacing: 0.03em;
+      color: $primary-color;     
+  }
+}

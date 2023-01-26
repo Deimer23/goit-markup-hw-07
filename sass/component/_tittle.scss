@@ -1,0 +1,46 @@
+@import '../utils/variables';
+
+.content{
+    background: $background-title;
+    background-image: url("/images/Imagen-titulo.jpg");
+    background-size: cover;
+    text-align: center;    
+}
+
+.title {
+    width: 700px;
+    font-family: "Roboto", sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    margin: 0px auto;
+    color: $white-color;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+   
+  }
+
+  .button {
+    height: 50px;
+    background: $primary-color;
+    border-radius: 4px;    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: $white-color;
+    text-align: center;
+    border: none;
+    padding: 0 10px;
+
+    &:hover{
+        background: $white-color;
+        color: $primary-color;
+        cursor: pointer;
+    }
+
+    &:focus{
+        background: $white-color;
+        color: $primary-color;       
+    }
+  }

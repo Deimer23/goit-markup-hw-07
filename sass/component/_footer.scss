@@ -1,0 +1,120 @@
+@import '../utils/variables';
+
+.page-footer{
+
+    height: 250px; 
+    padding: 94px 20px;
+    background: $secundary-color; 
+    
+    .container{
+        display:flex;
+        gap: 10px;
+        align-items: flex-start; 
+        justify-content: space-evenly;
+    }
+
+    .logo{
+
+        &__link{
+
+            &:hover{
+                color: $white-color;
+            }
+
+            &:focus{
+                color: $white-color;
+            }
+        }
+    }
+
+    .social{
+        display: flex;
+        gap: 5px;
+    }
+    
+}
+
+.addres{
+
+    &__description{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        color: $white-color;
+        letter-spacing: 0.03em;
+
+        &:hover{
+            color: $primary-color;
+            cursor: pointer;
+        }
+    }
+}
+
+.find-us{
+
+    &__tittle{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $white-color;
+    }
+}
+
+.subscription{
+    
+    &__tittle{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;  
+        color: $white-color;
+        width: 100%;
+    }
+
+    &__imgbutton{
+        display: flex;
+        gap: 10px;
+        position: relative;
+    }
+
+    &__email{
+        width: 358px;
+        height: 50px;
+        border-radius: 4px;
+        padding: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background: $background-title;
+    }
+
+    &__button{
+        width: 200px;
+        height: 50px;
+        background: $primary-color;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;   
+        outline: none;
+        border: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;  
+        letter-spacing: 0.06em;
+        color: $white-color;
+    }
+
+    &__icon{
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 13px;
+        right: 13px;
+    }
+}

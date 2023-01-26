@@ -1,0 +1,53 @@
+@import '../utils/variables';
+
+.skills{
+
+    &__menu{
+        display: flex;  
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    &__item{
+        width: 270px;
+    }
+
+    &__card{
+        background: $backgronud-card;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        width: 270px;
+    }
+
+    &__icon{
+        width: 70px;
+        height: 70px;
+    }
+
+    &__tittle{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $secundary-color;
+    }
+
+    &__description{        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: $skills-text;
+    }
+
+
+}

@@ -88,7 +88,7 @@ a {
 }
 .content-title{  
   background: #2f303a;
-  background-image: url("images/Imagen-titulo.jpg");
+  background-image: url("../images/Imagen-titulo.jpg");
   background-size: cover;
   text-align: center;   
 }
@@ -456,7 +456,7 @@ footer .container .direction:hover{
 }
 .modal-input:hover + .modal-icon,
 .modal-input:focus + .modal-icon{
-  fill: #2196F3;;
+  fill: #2196F3;
 }
 .modal-icon:hover {
   fill: #2196F3;
@@ -566,6 +566,8 @@ footer .container .direction:hover{
   color:#FFFFFF;
   cursor: pointer;  
 }
+
+
 .portafolio{
   max-width: 1200px;
   margin: 0 auto; 
